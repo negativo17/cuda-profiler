@@ -1,11 +1,11 @@
 %global real_name cuda_profiler_api
 
 %global debug_package %{nil}
-%global major_package_version 11-8
+%global major_package_version 12-0
 
 Name:           cuda-profiler
 Epoch:          1
-Version:        11.8.86
+Version:        12.0.76
 Release:        1%{?dist}
 Summary:        CUDA Profiler API
 License:        CUDA Toolkit
@@ -37,5 +37,8 @@ cp -f include/* %{buildroot}%{_includedir}/
 %{_includedir}/*
 
 %changelog
+* Wed Dec 21 2022 Simone Caronni <negativo17@gmail.com> - 1:12.0.76-1
+- Update to 12.0.76.
+
 * Wed Dec 21 2022 Simone Caronni <negativo17@gmail.com> - 1:11.8.86-1
 - First build for 11.8.86.
