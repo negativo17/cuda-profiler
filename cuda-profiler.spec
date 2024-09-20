@@ -1,7 +1,7 @@
 %global real_name cuda_profiler_api
 
 %global debug_package %{nil}
-%global major_package_version 12-5
+%global major_package_version 12-6
 
 Name:           cuda-profiler
 Epoch:          1
