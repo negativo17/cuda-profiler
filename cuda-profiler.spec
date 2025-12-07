@@ -5,7 +5,7 @@
 
 Name:           cuda-profiler
 Epoch:          1
-Version:        12.2.53
+Version:        13.0.85
 Release:        1%{?dist}
 Summary:        CUDA Profiler API
 License:        CUDA Toolkit
@@ -37,6 +37,9 @@ cp -f include/* %{buildroot}%{_includedir}/
 %{_includedir}/*
 
 %changelog
+* Sun Dec 07 2025 Simone Caronni <negativo17@gmail.com> - 1:13.0.85-1
+- Update to 13.0.85.
+
 * Tue Jul 11 2023 Simone Caronni <negativo17@gmail.com> - 1:12.2.53-1
 - Update to 12.2.53.
 
